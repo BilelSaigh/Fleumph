@@ -1,0 +1,40 @@
+# Node.js (Backend)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+/dist
+/.tsbuildinfo
+
+# Frontend (Angular)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+/dist
+/tmp
+/out-tsc
+/.angular/
+
+# Docker
+.docker/
+docker-compose.override.yml
+**/*.tar
+**/*.gz
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other config files
+.env
+.env.example
+nginx.conf
